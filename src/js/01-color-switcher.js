@@ -6,8 +6,6 @@ const btnStop = document.querySelector('button[data-stop]');
 btnStart.style.width = '150px';
 btnStart.style.height = '50px';
 btnStart.style.fontSize = '20px';
-btnStart.style.position = 'absolute';
-btnStart.style.left = '10vw';
 
 btnStop.style.width = '150px';
 btnStop.style.height = '50px';
