@@ -1,6 +1,9 @@
-import flatpickr from 'flatpickr';
-import 'flatpickr/dist/flatpickr.min.css';
+// all modules//
 import Notiflix from 'notiflix';
+// Opisany w dokumentacji//
+import flatpickr from 'flatpickr';
+// Dodatkowy import stylów//
+import 'flatpickr/dist/flatpickr.min.css';
 
 const timer = document.querySelector('.timer');
 const value = Array.from(document.querySelectorAll('span.value'));
