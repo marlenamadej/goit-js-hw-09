@@ -50,7 +50,7 @@ const options = {
     if (selectedDates[0].getTime() <= options.defaultDate.getTime()) {
       startBtn.disabled = true;
       Notiflix.Notify.failure('Please choose a date in the future', {
-        width: '50vw',
+        width: '500px',
       });
     }
     if (selectedDates[0].getTime() > options.defaultDate.getTime()) {
